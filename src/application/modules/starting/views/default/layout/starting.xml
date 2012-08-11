@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<layout>
+    <default>
+        <body>
+            <col-left>
+                <block template="starting/vertical-nav" />
+            </col-left>
+            <col-right>
+                <block template="starting/vertical-nav" />
+            </col-right>
+        </body>
+    </default>
+    
+    <index template="layout/page/1column">
+        <body>
+            <col-main>
+                <block template="starting/welcome" />
+            </col-main>
+        </body>
+    </index>
+    
+    <two_columns_left>
+        <head>
+            <title>Two columns left</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/welcome" />
+            </col-main>
+        </body>
+    </two_columns_left>
+
+    <two_columns_right template="layout/page/2columns-right">
+        <head>
+            <title>Two columns right</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/welcome" />
+            </col-main>
+        </body>
+    </two_columns_right>
+</layout>

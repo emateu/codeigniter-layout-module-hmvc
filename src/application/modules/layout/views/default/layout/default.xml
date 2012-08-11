@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<layout>
+    <default template="layout/page/1column">
+        <head>
+            <title>HMVC Layout Module</title>
+            <css>layout/css/bootstrap.min.css</css>
+            <css>layout/css/bootstrap-responsive.min.css</css>
+            <css>layout/css/styles.css</css>
+            <js>layout/js/lib/jquery.min.js</js>
+            <js>layout/js/lib/bootstrap.min.js</js>
+        </head>
+    </default>
+</layout>

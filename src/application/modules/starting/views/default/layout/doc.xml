@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<layout>
+    <default template="layout/page/2columns-left">
+        <head>
+            <css>starting/js/lib/prettify/prettify.css</css>
+            <js>starting/js/lib/prettify/prettify.js</js>
+            <js>starting/js/global.js</js>
+        </head>
+        <body class="addsome cssclasses tothebody">
+            <col-left>
+                <block template="starting/vertical-nav" />
+            </col-left>
+        </body>
+    </default>
+    
+    <index>
+        <head>
+            <title>Introduction</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/doc/index" />
+            </col-main>
+        </body>
+    </index>
+    
+    <filesystem>
+        <head>
+            <title>The filesystem</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/doc/filesystem" />
+            </col-main>
+        </body>
+    </filesystem>
+    
+    <methods>
+        <head>
+            <title>Methods</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/doc/methods" />
+            </col-main>
+        </body>
+    </methods>
+    
+    <load_method_xml_files>
+        <head>
+            <title>The load() method and XML layout files</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/doc/load_method_xml_files" />
+            </col-main>
+        </body>
+    </load_method_xml_files>
+    
+    <features>
+        <head>
+            <title>Features</title>
+        </head>
+        <body>
+            <col-main>
+                <block template="starting/doc/features" />
+            </col-main>
+        </body>
+    </features>
+
+</layout>

@@ -1,0 +1,14 @@
+/* 
+    Document   : styles
+    Created on : Aug 6, 2012
+    Author     : emateu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+header {
+    min-height: 4em;
+}
+.page {
+    padding: 1em 0;
+}
